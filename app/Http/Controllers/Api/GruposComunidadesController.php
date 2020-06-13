@@ -88,7 +88,7 @@ class GruposComunidadesController extends ApiController
 
         // Subir fotos
         if (!$request->hasFile('photo')) {
-            $fileName = NULL;
+            $fileName = '1234567890 comunidad.png';
         } else {
             $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
             $charactersLength = strlen($characters);
